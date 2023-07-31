@@ -12,7 +12,7 @@
       <header>
         <nav class="header__nav-top bg-indigo-400">
           <div class="container flex justify-center">
-            <ul class="flex header__nav-top-links">
+            <ul class="flex header__nav-top-links flex-wrap">
               <li>
                 <a class="txt txt-500 txt-white txt-cyan-hover" href=""
                   >Features</a
@@ -38,7 +38,7 @@
           </div>
         </nav>
         <div class="header__middle">
-          <div class="container flex justify-between items-center">
+          <div class="container flex justify-between items-center flex-wrap">
             <div class="logo-wrap flex items-center">
               <div
                 class="logo bg-gradient-cyan-deep-purple flex justify-center items-center"
@@ -55,8 +55,46 @@
             </div>
           </div>
         </div>
+        <nav class="header__nav-bottom">
+          <div class="container">
+            <ul
+              class="flex header__nav-bottom-wrap justify-between flex-wrap margin-auto gap-15"
+            >
+              <li>
+                <a href="" class="txt-sm txt-700 txt-indigo-400">Home</a>
+              </li>
+              <li>
+                <a href="" class="txt-sm txt-700 txt-indigo-400">Product</a>
+              </li>
+              <li>
+                <a href="" class="txt-sm txt-700 txt-indigo-400">Pricing</a>
+              </li>
+              <li>
+                <a href="" class="txt-sm txt-700 txt-indigo-400">Contact</a>
+              </li>
+              <li>
+                <a href="" class="txt-sm txt-700 txt-indigo-400">Login</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </header>
-      <main class="grow-1">Main content</main>
+      <main
+        class="grow-1 main-section bg-image-cover flex flex-col justify-center"
+      >
+        <div class="container">
+          <div class="main-section__content">
+            <h1 class="h1 main-section__h1 txt-indigo-900 txt-700">
+              I’m <br />
+              your website.
+            </h1>
+            <p class="txt-lg main-section__txt txt-indigo-400 txt-500">
+              We know how large objects will act, but things on a small scale
+            </p>
+            <button class="btn-gradient txt-sm txt-400 txt-ce">More</button>
+          </div>
+        </div>
+      </main>
     </div>
   </body>
 </html>
